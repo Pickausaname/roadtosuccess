@@ -1,3 +1,4 @@
+import re
 def findSumReg(fileName):
     """
     Returns amount of all numbers in the input file. Ignores letters, non-characters 
