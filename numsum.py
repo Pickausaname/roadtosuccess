@@ -8,3 +8,4 @@ def findSumReg(fileName):
     returns: sum of all numbers
     """
     ### TODO
+    return sum([int(i) for i in (re.findall(r'\d+',open(fileName).read()))])
